@@ -8,6 +8,7 @@
 #include <thread>
 #include <stdexcept>
 #include <random>
+#include <cstdlib>
 
 #define PORT 50000
 #define IP "127.0.0.1"
