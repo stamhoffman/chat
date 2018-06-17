@@ -10,7 +10,7 @@
 #include <random>
 #include <cstdlib>
 
-#define PORT 50000
+#define PORT 50001
 #define IP "127.0.0.1"
 
 #endif

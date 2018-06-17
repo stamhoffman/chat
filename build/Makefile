@@ -17,3 +17,6 @@ install:
 	mkdir -p $(INSTALL)
 	cp $(SRC)/chat.cpp  $(INSTALL)
 	cp $(BUILD)/chat  $(INSTALL)
+
+format:
+	clang-format -i $(SRC)/chat.cpp
